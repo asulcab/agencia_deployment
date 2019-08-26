@@ -1,0 +1,34 @@
+extends ../layout/index
+block contenido
+    <!--1ra. Forma de mostrar variables-->
+    <!--h1=pagina-->
+
+    <!--2da. Forma de mostrar variables-->
+    <!--h1 #{tiendas}-->
+
+    <!--p Hi, my name is Americo.-->
+    
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Imagen de Nosotros" class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis dolor vehicula ipsum convallis, vel fermentum est rhoncus. Duis quis pharetra arcu. Quisque vitae tempor erat.
+                p Nulla vestibulum, libero vitae placerat iaculis, ipsum lectus sagittis eros, id aliquam ligula lectus non sapien. Aenean non lacus eget magna commodo bibendum. Morbi nec vehicula orci. Mauris in magna ex. Morbi finibus ut orci in pretium. Nam volutpat magna in ipsum fringilla scelerisque. Proin sodales non dui a semper.
+                p Sed blandit urna id odio facilisis, eu ultrices sapien mattis. Fusce in faucibus diam. Nullam viverra ipsum aliquet nunc ultricies ullamcorper. Suspendisse aliquet blandit dolor, sit amet aliquet purus ornare sed.
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p In ac aliquam purus. Duis a mattis dolor. Aenean enim enim, fermentum id laoreet in, placerat nec sapien. Aliquam viverra ut sem in porttitor. Pellentesque urna est, lobortis ut faucibus a, semper et orci.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Morbi malesuada ipsum vitae neque hendrerit lacinia. Donec eu neque id lacus euismod condimentum. Aliquam augue sem, dictum et nisi ut, rhoncus laoreet urna. Pellentesque hendrerit sit amet ligula non ornare.
+                .col-md-4
+                    img(src="img/icono_precios.svg", class="im-fluid mb-4")
+                    h2.mb-4 Mejor Precio
+                    p Proin quam urna, lacinia sit amet arcu at, porta aliquam diam. Aliquam erat volutpat. Integer rutrum ante id lectus ultricies, vitae vestibulum dolor tincidunt. Etiam sollicitudin sodales metus.
